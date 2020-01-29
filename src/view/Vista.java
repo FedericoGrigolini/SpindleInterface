@@ -309,7 +309,7 @@ public class Vista {
 			
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				if (gTime > 1) {
+				if (gTime > 0) {
 					gTime--;
 					globalTime.setText("" + gTime);
 				}
