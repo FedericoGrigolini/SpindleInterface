@@ -1,0 +1,106 @@
+rco11 : -> CNot090
+rwo11 : -> WNot0NE15
+rco12 : -> CCot090
+rwo12 : -> WCot0NE15
+rco13 : -> CSot090
+rwo13 : -> WSot0NE15
+rso11 : -> Seaot0190
+
+rwg11 : WNet0NE15, WNgt0N18 => WNortht0N18
+rwe11 : WNet0NE15, WNgt0N18 => WNortht0NE15
+rw11 : WNortht0N18 => -WNortht0NE15
+rw21 : WNortht0NE15 => -WNortht0N18
+rwg32 : WCet0NE15, WCgt0N18 => WCentert0N18
+rwe32 : WCet0NE15, WCgt0N18 => WCentert0NE15
+rw32 : WCentert0N18 => -WCentert0NE15
+rw42 : WCentert0NE15 => -WCentert0N18
+rwg53 : WSet0NE15, WSgt0N10 => WSoutht0N10
+rwe53 : WSet0NE15, WSgt0N10 => WSoutht0NE15
+rw53 : WSoutht0N10 => -WSoutht0NE15
+rw63 : WSoutht0NE15 => -WSoutht0N10
+rcg71 : CNet175, CNgt190 => CNortht184
+rce81 : CNet175, CNgt190 => CNortht180
+rc91 : CNortht184 => -CNortht180
+rc101 : CNortht180 => -CNortht184
+rwg91 : WNet1NE5, WNgt1N8 => WNortht1N8
+rwe91 : WNet1NE5, WNgt1N8 => WNortht1NE5
+rw91 : WNortht1N8 => -WNortht1NE5
+rw101 : WNortht1NE5 => -WNortht1N8
+rcg112 : CCet175, CCgt190 => CCentert184
+rce122 : CCet175, CCgt190 => CCentert180
+rc132 : CCentert184 => -CCentert180
+rc142 : CCentert180 => -CCentert184
+rwg132 : WCet1NE5, WCgt1E8 => WCentert1E8
+rwe132 : WCet1NE5, WCgt1E8 => WCentert1NE5
+rw132 : WCentert1E8 => -WCentert1NE5
+rw142 : WCentert1NE5 => -WCentert1E8
+rcg153 : CSet175, CSgt190 => CSoutht184
+rce163 : CSet175, CSgt190 => CSoutht180
+rc173 : CSoutht184 => -CSoutht180
+rc183 : CSoutht180 => -CSoutht184
+rcg171 : CNet230, CNgt290 => CNortht262
+rce181 : CNet230, CNgt290 => CNortht258
+rc191 : CNortht262 => -CNortht258
+rc201 : CNortht258 => -CNortht262
+rwg191 : WNet2N5, WNgt2N18 => WNortht2N18
+rwe191 : WNet2N5, WNgt2N18 => WNortht2N5
+rw191 : WNortht2N18 => -WNortht2N5
+rw201 : WNortht2N5 => -WNortht2N18
+rcg212 : CCet230, CCgt290 => CCentert262
+rce222 : CCet230, CCgt290 => CCentert258
+rc232 : CCentert262 => -CCentert258
+rc242 : CCentert258 => -CCentert262
+rwg232 : WCet2N5, WCgt2E8 => WCentert2E8
+rwe232 : WCet2N5, WCgt2E8 => WCentert2N5
+rw232 : WCentert2E8 => -WCentert2N5
+rw242 : WCentert2N5 => -WCentert2E8
+rcg253 : CSet230, CSgt290 => CSoutht262
+rce263 : CSet230, CSgt290 => CSoutht258
+rc273 : CSoutht262 => -CSoutht258
+rc283 : CSoutht258 => -CSoutht262
+rsg271 : Seaet0160, Seagt0190 => Seat0177
+rse281 : Seaet0160, Seagt0190 => Seat0173
+vs291 : Seat0177 => -Seat0173
+vs301 : Seat0173 => -Seat0177
+rsg291 : Seaet190, Seagt1100 => Seat197
+rse301 : Seaet190, Seagt1100 => Seat193
+vs311 : Seat197 => -Seat193
+vs321 : Seat193 => -Seat197
+rsg311 : Seaet250, Seagt2100 => Seat277
+rse321 : Seaet250, Seagt2100 => Seat273
+vs331 : Seat277 => -Seat273
+vs341 : Seat273 => -Seat277
+
+rw21 > rwg11
+rwe11 > rw11
+rw42 > rwg32
+rwe32 > rw32
+rw63 > rwg53
+rwe53 > rw53
+rc101 > rcg71
+rce81 > rc91
+rw101 > rwg91
+rwe91 > rw91
+rc142 > rcg112
+rce122 > rc132
+rw142 > rwg132
+rwe132 > rw132
+rc183 > rcg153
+rce163 > rc173
+rc201 > rcg171
+rce181 > rc191
+rw201 > rwg191
+rwe191 > rw191
+rc242 > rcg212
+rce222 > rc232
+rw242 > rwg232
+rwe232 > rw232
+rc283 > rcg253
+rce263 > rc273
+vs301 > rsg271
+rse281 > vs291
+vs321 > rsg291
+rse301 > vs311
+vs341 > rsg311
+rse321 > vs331
+

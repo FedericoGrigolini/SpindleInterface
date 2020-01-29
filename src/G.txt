@@ -1,0 +1,3 @@
+at time t0: North:{90%, 18 N}, Center:{90%, 18 N}, South:{90%, 10 N} Sea: 190
+at time t1: North:{90%, 8 N}, Center:{90%, 8 E}, South:{90%, 5 E} Sea: 100
+at time t2: North:{90%, 18 N}, Center:{90%, 8 E}, South:{90%, 5 E} Sea: 100

@@ -1,0 +1,1 @@
+at time t0: North:{90%, 15 NE}, Center:{90%, 15 NE}, South:{90%, 15 NE} Sea: 190

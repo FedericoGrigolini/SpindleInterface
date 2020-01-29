@@ -1,0 +1,3 @@
+at time t0: North:{90%, 15 NE}, Center:{90%, 15 NE}, South:{90%, 15 NE} Sea: 160,
+at time t1: North:{75%, 5 NE}, Center:{75%, 5 NE}, South:{75%, 5 N} Sea: 90,
+at time t2: North:{30%, 5 N}, Center:{30%, 5 N}, South:{30%, 5 N} Sea: 50
